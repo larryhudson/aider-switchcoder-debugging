@@ -33,7 +33,8 @@ aider.commands.SwitchCoder
 
 To reproduce:
 - Clone this repo
-- Create a new virtual environment - python -m venv venv
-- Install dependencies - pip install -r requirements.txt
+- Create a new virtual environment - `python -m venv venv`
+- Activate the virtual environment - `source venv/bin/activate`
+- Install dependencies - `pip install -r requirements.txt`
 - Make sure ANTHROPIC_API_KEY is set in your environment
-- Run python main.py to run the script
+- Run `python main.py` to run the script
